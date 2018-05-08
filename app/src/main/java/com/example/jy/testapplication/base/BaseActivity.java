@@ -11,10 +11,6 @@ import android.widget.TextView;
 
 import com.example.jy.testapplication.R;
 
-/**
- * Created by jy on 2018/5/7.
- */
-
 public abstract class BaseActivity extends FragmentActivity {
     private TextView tv_mTitle; // 标题
     private TextView tv_mLeft;//回退
@@ -27,7 +23,7 @@ public abstract class BaseActivity extends FragmentActivity {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
         activity = this;
-        initHeadView();
+//        initHeadView();
     }
 
     /**
